@@ -1,0 +1,507 @@
+
+/*//////UNIVERSAL STYLING//////*/
+@font-face {
+  font-family: "Ubuntu";
+  src: url("Ubuntu-Bold.ttf");
+  font-family: "WSL";
+  src: url("WorkSans-Light.ttf");
+}
+
+.WSL {
+  font-family: "WSL";
+}
+
+.UBUNTU {
+  font-family: "Ubuntu"
+}
+
+header, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 125%;
+}
+
+div, footer, p, ul, ol, input {
+  font-family: "WSL", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.componentHeading {
+  font-family: monospace !important;
+  margin-top: 1em;
+  border-top: solid 1px;
+  max-width: 90%;
+}
+
+.directionsContainer {
+  margin: 1em auto !important;
+  font-family: monospace;
+  max-width: 80%;
+  padding: 2em;
+  text-align: center;
+}
+
+.directionsHeading {
+  font-size: 500%;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.directions {
+  font-size: 110%;
+
+}
+
+
+/*//////FORMATTING UTILITIES//////*/
+.centerText {
+  text-align: center !important;
+}
+
+.centerItem {
+  margin: 0 auto !important;
+}
+
+
+
+/*//////NAVIGATION BAR//////*/
+.navBar{
+  display: flex;
+  background-color: #303633;
+  max-height: 4em;
+  width: 100%;
+}
+
+.navLogo {
+  flex: 1;
+}
+
+.navImage{
+  max-height: 100%;
+  object-fit: contain;
+  margin-left: 0;
+}
+
+.navEmpty {
+  flex: 2;
+}
+
+.navLinks {
+  flex: 1;
+  display: flex;
+}
+
+.navLink {
+  flex: 1;
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 125%;
+  font-weight:500;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+}
+
+/* Dropdown Button */
+.dropBtn {
+  background-color: #303633;
+  color: white;
+  height: 100%;
+  min-width: 6em;
+  font-size: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: auto;
+  box-shadow: 0em 0.25em 0.5em 0em rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #E0E0E0;
+  color: #000000;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+
+
+/*//////ELEMENTS//////*/
+header {
+  font-weight: bolder;
+  font-size: 150%;
+  font-family: "Ubuntu";
+}
+
+h1 {
+  font-size: 4.5em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+  margin: 2rem 0 1rem 3rem;
+}
+
+h2 {
+  font-size: 4em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+  margin: 2rem 0 1rem 3rem;
+}
+
+h3 {
+  font-size: 3.5em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+  margin: 2rem 0 1rem 3rem;
+}
+
+h4 {
+  font-size: 3em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+    margin: 2rem 0 1rem 3rem;
+}
+
+h5 {
+  font-size: 2.5em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+  margin: 2rem 0 1rem 3rem;
+}
+
+h6 {
+  font-size: 2em;
+  /*margin-bottom: 1rem;
+  margin-left: 3rem;*/
+  margin: 2rem 0 1rem 3rem;
+}
+
+p {
+  font-size: 125%;
+  margin-bottom: 1em;
+  margin-left: 3rem;
+  line-height: 175%;
+}
+
+blockquote {
+  font-size: 160%;
+  margin-left:7rem;
+  margin-right: 7rem;
+  margin-bottom: 2em;
+  line-height: 150%;
+  width: 50%;
+}
+
+
+/*//////OTHER//////*/
+.text {
+  max-width: 60%;
+}
+
+
+/*//////GRID//////*/
+.gridContainer {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  grid-auto-flow: dense;
+  padding: 0;
+}
+
+
+.col1 {
+  float: left;
+  width: 8.33%;
+  border: solid 1px;
+}
+
+
+.col2 {
+  float: left;
+  width: 16.66%;
+  border: solid 1px;
+}
+
+.col3 {
+  float: left;
+  width: 25%;
+  border: solid 1px;
+}
+
+.col4 {
+  float: left;
+  width: 33.33%;
+  border: solid 1px;
+}
+
+.col6 {
+  float: left;
+  width: 50%;
+  border: solid 1px;
+}
+
+.col12 {
+  float: left;
+  width: 100%;
+  border: solid 1px;
+}
+
+
+/*//////FOOTER//////*/
+footer {
+  display: flex;
+  width: 100%;
+  margin: 1em 0em;
+  border-top: solid 1px #E0E0E0;
+}
+
+.footerEmpty {
+  flex: 2;
+  margin: 1em 0em;
+}
+
+.footerMiddle {
+  flex: 2;
+  margin: 1em 0em;
+  font-size: 80%;
+  text-align: center;
+}
+
+
+/*//////MEDIA//////*/
+
+.smallImgContainer {
+  height: auto;
+  width:  15em;
+  margin: 0em;
+}
+
+.medImgContainer {
+  height: auto;
+  width:  20em;
+  margin: 0em;
+}
+
+.largeImgContainer {
+  height: auto;
+  width:  30em;
+  margin: 0em;
+}
+
+.image{
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 2em auto;
+
+}
+
+
+/*//////URL//////*/
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1b0227;
+  font-weight: bold;
+}
+
+
+/*//////LISTS//////*/
+ul {
+  line-height: 150%;
+  margin-left: 5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  list-style-type: disc;
+  font-size: 125%;
+}
+
+ul ul {
+  list-style-type: circle;
+  font-size: 100%;
+  line-height: 150%;
+  margin: 0 0 0 1em;
+}
+
+ol {
+  line-height: 150%;
+  margin-left: 5em;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  list-style-type:decimal;
+  font-size: 125%;
+}
+
+ol ol {
+  list-style-type: circle;
+  font-size: 100%;
+  line-height: 150%;
+  margin: 0 0 0 1em;
+}
+
+
+/*//////FORMS//////*/
+
+.formContainer {
+  margin: 3em auto;
+  max-width: 60%;
+  box-shadow: 0.5em 0.5em #D3D3D3;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6e8;
+  border-radius: 5%;
+}
+
+.textInputLabel {
+  font-family: "WSL";
+}
+
+.textInput {
+  line-height: 125%;
+  font-size: 100%;
+}
+
+.radioInputLabel {
+  margin: 2em;
+}
+
+.formElement {
+  flex: 1;
+  margin: 1em;
+}
+
+/*to center form elements, uncomment the single styling format below and comment out the .formElement component styling above.*/
+/*.formElement{
+    margin: 1em auto;
+    flex: 1;
+}*/
+
+/*//////BUTTONS//////*/
+.plainBtn {
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: "WSL";
+  font-size: 110%;
+  font-weight: bolder;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.purpleBtn {
+  background-color:#1b0227;
+  color: #ffffff;
+  border-radius: 15px;
+  font-family: "WSL";
+  font-size: 110%;
+  font-weight: bolder;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.grayBtn {
+  background-color: #303633;
+  color: #ffffff;
+  border-radius: 15px;
+  font-family: "WSL";
+  font-size: 110%;
+  font-weight: bolder;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+/*//////MEDIA BLOCK//////*/
+.mediaBlockContainer {
+  display: flex;
+  max-height: 10em;
+  width: 97%;
+  margin: 1em;
+}
+
+
+.mediaImg {
+  flex: 2;
+  max-width: 100%;
+}
+
+.mediaPic{
+  object-fit: contain;
+  max-height: 100%;
+  padding-left: 2em;
+}
+
+.mediaText {
+  flex: 5;
+}
+
+.mediaTitle{
+  margin-left: 0em;
+  margin-bottom: 1em;
+}
+
+
+.mediaContent {
+  line-height: 125%;
+  font-family: "WSL";
+  font-size: 100%;
+  margin-left: 0em;
+}
+
+/*//////TABLES//////*/
+table {
+  margin: 2em 2em 2em 5em;
+  border-spacing: 0;
+}
+
+table tr th {
+  font-family: "Ubuntu";
+  line-height: 166%;
+  font-size: 166%;
+  border: solid 1px gray;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+table tr td {
+  font-family: "WSL";
+  border: solid 1px gray;
+  line-height: 125%;
+  font-size: 113%;
+  max-width: 75%;
+  padding: 0.5em;
+}

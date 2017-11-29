@@ -1,0 +1,36 @@
+/*//////STYLING FOR EXAMPLE ONLY//////*/
+
+
+
+.colEx {
+  line-height: 500%;
+  margin: 0.25em 0;
+}
+
+
+.row {
+  margin: 1em;
+}
+
+
+.gridContainer {
+    max-width: 80%;
+}
+
+
+footer {
+  max-width: 80%;
+  margin: 1em auto !important;
+}
+
+
+.buttonsPlain, .buttonsPurple, .buttonsGray {
+  margin-left: 2em;
+}
+
+
+.navBar {
+  width: 90% !important;
+  margin-left: 3em;
+  position: relative !important;
+}
