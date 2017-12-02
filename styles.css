@@ -540,6 +540,10 @@ img {
 }
 
 @media(max-width: 900px) {
+  textarea, input, select {
+    width: 90%;
+    padding: .5em 1em;
+  }
   .navBar {
     display: flex;
     background-color: #303633;
@@ -665,6 +669,10 @@ img {
 }
 
 @media(min-width: 901px) {
+  textarea, input, select {
+    width: 50%;
+    padding: .5em 1em;
+  }
   /*//////NAVIGATION BAR//////*/
   .navBar {
     display: flex;
@@ -848,11 +856,6 @@ blockquote {
   margin-bottom: 2em;
   line-height: 150%;
   width: 50%;
-}
-
-textarea, input, select {
-  width: 90%;
-  padding: .5em 1em;
 }
 
 /*//////OTHER//////*/
