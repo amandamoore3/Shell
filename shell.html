@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Shell</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="styles.css">
 
-    <!-- Delete this comment and the stylesTemps.css element below when using during build/production. -->
-    <link rel="stylesheet" href="stylesTemp.css">
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>Shell</title>
 
-  </head>
-  <body>
+  <link rel="stylesheet" href="styles.css">
+
+
+
+  <!-- Delete this comment and the stylesTemps.css element below when using during build/production. -->
+  <!-- <link rel="stylesheet" href="stylesTemp.css"> -->
+
+</head>
+
+<body>
+  <div class="mainContainer">
+
     <div class="directions directionsContainer formContainer centerItem">
       <span class="directionsHeading">Shell</span>
       <span class="directions">A lightweight CSS framework</span></br>
@@ -22,61 +29,74 @@
     <p>All other elements are styled with WorkSans-Light. Thanks Google Fonts!</p>
 
 
+
     <h5 class="componentHeading">Navigation bar</h5>
-    <nav class="navBar">
-      <div class="navLogo">
-        <a href="#"> <img src="logo.png" class="navImage"></a>
+
+  </div>
+  <nav class="navBar">
+    <div class="navLogo">
+      <a href="#"> <img src="./fonts_imgs/logo.png" class="navImage"></a>
+    </div>
+    <div class="navEmpty"></div>
+    <div class="navLinksSmall">
+      <div class="dropdownSmall">
+        <button class="dropBtnSmall"><a href="#" class="navLink">MENU</a></button>
+        <div class="dropdown-contentSmall">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
-      <div class="navEmpty"></div>
-      <div class="navLinks">
 
-          <div class="dropdown">
-            <button class="dropBtn"><a href="#" class="navLink">Item 1</a></button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
 
-          <div class="dropdown">
-            <button class="dropBtn"><a href="#" class="navLink">Item 2</a></button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropBtn"><a href="#" class="navLink">Item 3</a></button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropBtn"><a href="#" class="navLink">Item 4</a></button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <button class="dropBtn"><a href="#" class="navLink">Item 5</a></button>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-          </div>
-
+      <div class="dropdown">
+        <button class="dropBtn"><a href="#" class="navLink">Item 1</a></button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
-    </nav>
+
+      <div class="dropdown">
+        <button class="dropBtn"><a href="#" class="navLink">Item 2</a></button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropBtn"><a href="#" class="navLink">Item 3</a></button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropBtn"><a href="#" class="navLink">Item 4</a></button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropBtn"><a href="#" class="navLink">Item 5</a></button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+  <div class="mainContainer">
 
 
     <h5 class="componentHeading">Media component</h5>
@@ -106,7 +126,9 @@
     <h5>Heading Five</h5>
     <h6>Heading Six</h6>
 
-    <p class="text"> Gochujang activated charcoal leggings listicle single-origin coffee, messenger bag farm-to-table hammock offal post-ironic. Selvage small batch umami single-origin coffee. IPhone meggings taxidermy narwhal VHS asymmetrical. Cardigan green juice slow-carb kinfolk tousled. Try-hard hot chicken sriracha cloud bread chartreuse iceland 8-bit hexagon glossier pop-up. Brooklyn adaptogen cred DIY, pabst snackwave coloring book pour-over banjo vaporware literally. Banh mi jianbing actually, flannel narwhal occupy art party lyft bitters food truck.</p>
+    <p class="text"> Gochujang activated charcoal leggings listicle single-origin coffee, messenger bag farm-to-table hammock offal post-ironic. Selvage small batch umami single-origin coffee. IPhone meggings taxidermy narwhal VHS asymmetrical. Cardigan green juice slow-carb
+      kinfolk tousled. Try-hard hot chicken sriracha cloud bread chartreuse iceland 8-bit hexagon glossier pop-up. Brooklyn adaptogen cred DIY, pabst snackwave coloring book pour-over banjo vaporware literally. Banh mi jianbing actually, flannel narwhal
+      occupy art party lyft bitters food truck.</p>
 
     <h1 class='centerText'>Heading One</h1>
     <h2 class='centerText'>Heading Two</h2>
@@ -115,20 +137,22 @@
     <h5 class='centerText'>Heading Five</h5>
     <h6 class='centerText'>Heading Six</h6>
 
-    <p class='centerItem text'> Gastropub brooklyn shaman authentic scenester edison bulb. Post-ironic keffiyeh chicharrones subway tile, kale chips synth vexillologist mustache brunch snackwave bitters pug you probably haven't heard of them leggings direct trade. Hoodie tilde marfa, tbh tumblr squid iceland vaporware drinking vinegar. Selvage +1 blog, photo booth trust fund freegan fam selfies lumbersexual readymade you probably haven't heard of them snackwave lomo vice cronut. Umami keytar selvage pour-over offal distillery taiyaki quinoa bespoke fashion axe tattooed slow-carb meditation literally. Raclette vice pok pok iceland. Green juice messenger bag af raw denim narwhal biodiesel jean shorts bespoke live-edge heirloom poutine hella.</p>
+    <p class='centerItem text'> Gastropub brooklyn shaman authentic scenester edison bulb. Post-ironic keffiyeh chicharrones subway tile, kale chips synth vexillologist mustache brunch snackwave bitters pug you probably haven't heard of them leggings direct trade. Hoodie tilde marfa,
+      tbh tumblr squid iceland vaporware drinking vinegar. Selvage +1 blog, photo booth trust fund freegan fam selfies lumbersexual readymade you probably haven't heard of them snackwave lomo vice cronut. Umami keytar selvage pour-over offal distillery
+      taiyaki quinoa bespoke fashion axe tattooed slow-carb meditation literally. Raclette vice pok pok iceland. Green juice messenger bag af raw denim narwhal biodiesel jean shorts bespoke live-edge heirloom poutine hella.</p>
 
 
     <h5 class="componentHeading">Images</h5>
     <div class="smallImgContainer centerItem">
-      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class= "image"  alt="Something went wrong while displaying this picture.">
+      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class="image" alt="Something went wrong while displaying this picture.">
     </div>
 
     <div class="medImgContainer centerItem">
-      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class= "image" alt="Something went wrong while displaying this picture.">
+      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class="image" alt="Something went wrong while displaying this picture.">
     </div>
 
     <div class="largeImgContainer centerItem">
-      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class= "image" alt="Something went wrong while displaying this picture.">
+      <img src="https://i.pinimg.com/736x/bb/c6/30/bbc6308f814d9817c77a726d83a5f959--missouri-river-park-service.jpg" class="image" alt="Something went wrong while displaying this picture.">
     </div>
 
     <h5 class="componentHeading">URL/ Hyperlink</h5>
@@ -163,38 +187,38 @@
 
     <h5 class="componentHeading">Forms</h5>
     <div class="formContainer">
-        <div class="formElement">
-          <label class="textInputLabel" for="textInput">Text input:</label>
-          <input class="textInput" type="text" placeholder="Text goes here">
-        </div>
+      <div class="formElement">
+        <label class="textInputLabel" for="textInput">Text input:</label>
+        <input class="textInput" type="text" placeholder="Text goes here">
+      </div>
 
-        <div class="formElement centerItems">
-          <label for="radioInput" class="radioInputLabel">
+      <div class="formElement centerItems">
+        <label for="radioInput" class="radioInputLabel">
           <input class="radioInput" type="radio" name="radio"> Radio input1</label>
-          <label for="radioInput" class="radioInputLabel">
+        <label for="radioInput" class="radioInputLabel">
           <input class="radioInput" type="radio" name="radio"> Radio input2</label>
-          <label for="radioInput" class="radioInputLabel">
+        <label for="radioInput" class="radioInputLabel">
           <input class="radioInput" type="radio" name="radio"> Radio input3</label>
-        </div>
+      </div>
 
-        <div class="formElement centerItems">
-          <label for="textarea">Textarea</label>
-          <textarea class="WSL" id="textarea" cols="30" rows="5" >Textarea text</textarea>
-        </div>
+      <div class="formElement centerItems">
+        <label for="textarea">Textarea</label>
+        <textarea class="WSL" id="textarea" cols="30" rows="5">Textarea text</textarea>
+      </div>
 
-        <div class="formElement centerItems">
-          <label for="Checkbox">Checkbox Label</label>
-          <input type="checkbox" name="Checkbox" value="Check me">
-        </div>
+      <div class="formElement centerItems">
+        <label for="Checkbox">Checkbox Label</label>
+        <input type="checkbox" name="Checkbox" value="Check me">
+      </div>
 
-        <div class="formElement centerItems selectContainer">
-          <label for="select">Select one of the following options:</label>
-          <select class="WSL" name="select">
+      <div class="formElement centerItems selectContainer">
+        <label for="select">Select one of the following options:</label>
+        <select class="WSL" name="select">
             <option value="First option">First option</option>
             <option value="Second option">Second option</option>
             <option value="Third option">Third option</option>
           </select>
-        </div>
+      </div>
     </div>
 
 
@@ -253,74 +277,75 @@
         <td>The last of the knowledge</td>
       </tr>
     </table>
+  </div>
+
+  <h5 class="componentHeading">Footer</h5>
+  <footer>
+    <div class="footerEmpty"></div>
+    <div class="footerMiddle">
+      <span>Add your copyright message here</span>
+    </div>
+    <div class="footerEmpty"></div>
+  </footer>
 
 
+  <h5 class="componentHeading">Grid</h5>
+  <div class="gridContainer">
 
+    <div class="row">
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+      <div class="col1 colEx">One</div>
+    </div>
+    <div class="row">
+      <div class="col2 colEx">Two</div>
+      <div class="col2 colEx">Two</div>
+      <div class="col2 colEx">Two</div>
+      <div class="col2 colEx">Two</div>
+      <div class="col2 colEx">Two</div>
+      <div class="col2 colEx">Two</div>
+    </div>
 
-    <h5 class="componentHeading">Footer</h5>
-    <footer>
-      <div class="footerEmpty"></div>
-      <div class="footerMiddle">
-        <span>Add your copyright message here</span>
-      </div>
-      <div class="footerEmpty"></div>
-    </footer>
-  </body>
+    <div class="row">
+      <div class="col3 colEx">Three</div>
+      <div class="col3 colEx">Three</div>
+      <div class="col3 colEx">Three</div>
+      <div class="col3 colEx">Three</div>
+    </div>
+    <div class="row">
+      <div class="col6 colEx">Six</div>
+      <div class="col3 colEx">Three</div>
+      <div class="col3 colEx">Three</div>
+    </div>
+    <div class="row">
+      <div class="col3 colEx">Three</div>
+      <div class="col3 colEx">Three</div>
+      <div class="col6 colEx">Six</div>
+    </div>
+    <div class="row">
+      <div class="col4 colEx">Four</div>
+      <div class="col4 colEx">Four</div>
+      <div class="col4 colEx">Four</div>
+    </div>
+    <div class="row">
+      <div class="col6 colEx">Six</div>
+      <div class="col6 colEx">Six</div>
+    </div>
+    <div class="row">
+      <div class="col12 colEx">Twelve</div>
+    </div>
+
+  </div>
+
+</body>
+
 </html>
-
-<h5 class="componentHeading">Grid</h5>
-<div class="gridContainer">
-
-  <div class="row">
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-    <div class="col1 colEx">One</div>
-  </div>
-  <div class="row">
-    <div class="col2 colEx">Two</div>
-    <div class="col2 colEx">Two</div>
-    <div class="col2 colEx">Two</div>
-    <div class="col2 colEx">Two</div>
-    <div class="col2 colEx">Two</div>
-    <div class="col2 colEx">Two</div>
-  </div>
-
-  <div class="row">
-    <div class="col3 colEx">Three</div>
-    <div class="col3 colEx">Three</div>
-    <div class="col3 colEx">Three</div>
-    <div class="col3 colEx">Three</div>
-  </div>
-  <div class="row">
-    <div class="col6 colEx">Six</div>
-    <div class="col3 colEx">Three</div>
-    <div class="col3 colEx">Three</div>
-  </div>
-  <div class="row">
-    <div class="col3 colEx">Three</div>
-    <div class="col3 colEx">Three</div>
-    <div class="col6 colEx">Six</div>
-  </div>
-  <div class="row">
-    <div class="col4 colEx">Four</div>
-    <div class="col4 colEx">Four</div>
-    <div class="col4 colEx">Four</div>
-  </div>
-  <div class="row">
-    <div class="col6 colEx">Six</div>
-    <div class="col6 colEx">Six</div>
-  </div>
-  <div class="row">
-    <div class="col12 colEx">Twelve</div>
-  </div>
-
-</div>
