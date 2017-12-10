@@ -260,7 +260,7 @@ button, input, optgroup, select, textarea {
 
 button, input {
   /* 1 */
-  overflow: visible;
+  /*overflow: visible;*/
 }
 
 /**
@@ -952,9 +952,6 @@ footer {
 }
 
 .image {
-  /*height: auto;
-  width: 100%;*/
-  /*object-fit: contain;*/
   margin: 2em auto;
 }
 
@@ -1023,6 +1020,9 @@ ol ol {
 .textInput {
   line-height: 125%;
   font-size: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .radio {
@@ -1081,10 +1081,20 @@ ol ol {
 
 /*//////TABLES//////*/
 
+.tableContainer {
+  overflow-x: auto;
+}
+
+.emptyDiv {
+  height: 5em;
+}
+
 table {
   display: table;
   margin: 2em 2em 2em 5em;
   border-spacing: 0;
+  table-layout: auto;
+  overflow:
 }
 
 table tr th {
