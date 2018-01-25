@@ -29,7 +29,7 @@ html {
 
 body {
   margin: 0;
-  font-size: 0.6em;
+  /*font-size: 0.6em;*/
 }
 
 /**
@@ -526,9 +526,9 @@ img {
   overflow-wrap: break-word;
 }
 
-.directions {
+/*.directions {
   font-size: 110%;
-}
+}*/
 
 /*//////FORMATTING UTILITIES//////*/
 
